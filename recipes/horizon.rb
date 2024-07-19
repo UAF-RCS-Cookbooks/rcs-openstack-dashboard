@@ -119,4 +119,4 @@ file secret_file do
   only_if { ::File.exist?(secret_file) }
 end
 
-include_recipe 'openstack-dashboard::apache2-server'
+include_recipe 'rcs-openstack-dashboard::apache2-server'

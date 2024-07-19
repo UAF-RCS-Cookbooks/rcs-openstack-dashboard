@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include_recipe 'openstack-dashboard::horizon'
+include_recipe 'rcs-openstack-dashboard::horizon'
 
 case node['platform_family']
 when 'debian'
