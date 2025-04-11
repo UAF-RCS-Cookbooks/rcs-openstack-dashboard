@@ -104,7 +104,7 @@ when 'rhel'
   default['openstack']['dashboard']['secret_key_path'] = "#{node['openstack']['dashboard']['dash_state_path']}/.secret_key_store"
   default['openstack']['dashboard']['ssl']['cert_dir'] = '/etc/pki/tls/certs/'
   default['openstack']['dashboard']['ssl']['key_dir'] = '/etc/pki/tls/private/'
-  default['openstack']['dashboard']['local_settings_path'] = '/etc/openstack-dashboard/local_settings'
+  default['openstack']['dashboard']['local_settings_path'] = '/etc/openstack-dashboard/local_settings.d/local_settings.py'
   default['openstack']['dashboard']['static_path'] = '/usr/share/openstack-dashboard/static'
   default['openstack']['dashboard']['policy_files_path'] = '/etc/openstack-dashboard'
   default['openstack']['dashboard']['login_url'] = "#{node['openstack']['dashboard']['webroot']}auth/login/"

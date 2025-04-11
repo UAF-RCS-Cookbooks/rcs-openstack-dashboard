@@ -3,7 +3,7 @@ maintainer       'UAF RCS'
 maintainer_email 'chef@rcs.alaska.edu'
 license          'Apache-2.0'
 description      'Installs/Configures the OpenStack Dashboard (Horizon)'
-version          '20.0.1'
+version          '20.0.2'
 
 %w(ubuntu redhat centos).each do |os|
   supports os
